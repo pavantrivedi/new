@@ -1,5 +1,9 @@
 Resources:
-  MyBucket:
+# Creating S3 Bucket
+  S3Bucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: ronakprajapatihdbddbcdvfdhjs
+      BucketName: ronakpprojpavanbuckety
+      AccessControl: Private
+      VersioningConfiguration:
+        Status: Enabled
