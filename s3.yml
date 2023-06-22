@@ -2,4 +2,4 @@ Resources:
   MyBucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: paavantrivedi1
+      BucketName: ronak123gtdbyht
